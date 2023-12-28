@@ -5,7 +5,7 @@ export const HabilitiesWrapper = styled.section`
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom: 20px;
+  padding-top: 50px;
   @media screen and (max-width: 768px) {
     padding-top: 30px;
     text-align: start;
@@ -43,8 +43,7 @@ export const LanguageCard = styled.div`
     transform: scale(1.03);
   }
   @media screen and (max-width: 768px) {
-    width: 150px;
-    height: 150px;
+    padding: 0.5rem;
   }
   img {
     width: 50px;

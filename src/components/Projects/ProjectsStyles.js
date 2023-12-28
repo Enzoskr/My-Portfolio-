@@ -1,24 +1,27 @@
 import styled from "styled-components";
 
 export const ProjectsWrapper = styled.section`
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom: 20px;
+  padding-top: 90px;
   @media screen and (max-width: 768px) {
     padding-top: 30px;
     text-align: start;
   }
 `;
 export const ProjectsContainer = styled.div`
-  max-width: 1300px;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
+  @media screen and (max-width: 768px) {
+    gap: 40px;
+  }
 `;
 
 export const ProyectoCard = styled.div`

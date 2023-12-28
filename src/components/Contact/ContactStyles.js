@@ -2,25 +2,30 @@ import styled from "styled-components";
 
 export const ContactTitle = styled.h2`
   color: var(--blanco);
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 2.5rem;
 `;
 
-export const ContactContainer = styled.section`
+export const ContactContainer = styled.footer`
   background-color: var(--gris-oscuro);
-  width: 100%;
+
   margin: 0 auto;
   color: var(--text-color-white);
 `;
 
 export const ContactWrapper = styled.div`
-  max-width: 1300px;
-  margin: 0 auto;
   padding: 1rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 18px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 export const Contacts = styled.a`

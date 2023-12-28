@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.section`
-  padding-top: 100px;
+  padding-top: 90px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   max-width: 1300px;
   margin: 0 auto;
-  gap: 4rem;
+  gap: 2rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
 `;
 
 export const HeroText = styled.div`
@@ -17,7 +21,9 @@ export const HeroText = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
-  max-width: 500px;
+  @media screen and (max-width: 768px) {
+    padding: 0 1rem;
+  }
 `;
 export const HeroTitle = styled.h1`
   font-size: 2.5rem;
@@ -33,8 +39,10 @@ export const HeroDescription = styled.p`
   font-size: 1.5rem;
   line-height: 1.5rem;
   font-weight: 500;
-
   max-width: 500px;
+  @media screen and (max-width: 768px) {
+    max-width: 400px;
+  }
 `;
 export const HeroContact = styled.div`
   display: flex;
@@ -66,6 +74,8 @@ export const HeroImg = styled.img`
   background-position: center;
   @media screen and (max-width: 768px) {
     width: 400px;
-    z-index: 1;
+  }
+  @media screen and (max-width: 425px) {
+    width: 300px;
   }
 `;

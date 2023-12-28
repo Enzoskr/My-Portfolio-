@@ -2,6 +2,7 @@ import React from "react";
 import {
   ContactBuild,
   ContactContainer,
+  ContactTitle,
   ContactWrapper,
   Contacts,
 } from "./ContactStyles";
@@ -9,7 +10,7 @@ import {
 export const Contact = () => {
   return (
     <ContactContainer>
-      <h2>Contact</h2>
+      <ContactTitle> Contact</ContactTitle>
       <ContactWrapper>
         <Contacts href="https://www.linkedin.com/in/enzo-escudero-4740771ba/">
           LinkedIn

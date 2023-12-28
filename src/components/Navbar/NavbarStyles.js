@@ -22,4 +22,8 @@ export const NavbarLi = styled.li`
   font-size: 20px;
   list-style: none;
   cursor: pointer;
+  @media screen and (max-width: 425px) {
+    font-size: 16px;
+    list-style: none;
+  }
 `;

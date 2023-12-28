@@ -9,9 +9,6 @@ export const Navbar = () => {
           <a href="/">Home</a>
         </NavbarLi>
         <NavbarLi>
-          <a href="/works">works</a>
-        </NavbarLi>
-        <NavbarLi>
           <a href="/studies">Studies</a>
         </NavbarLi>
         <NavbarLi>

@@ -40,7 +40,10 @@ h2{
     color: var(--blanco);
     font-size: 1.5rem;
     font-weight: 500;
-    padding-left: 2.5rem;
+    @media screen and (max-width: 768px) {
+    padding-left: 1.2rem;
+    }
+    
     
 }
 `;

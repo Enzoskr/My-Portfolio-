@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const NavbarContainer = styled.header`
   top: 0;
   z-index: 100;
+  a {
+    text-decoration: underline;
+  }
 `;
 
 export const NavbarUl = styled.ul`

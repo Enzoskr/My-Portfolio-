@@ -15,6 +15,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Hero = () => {
+  const handleContactClick = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <HeroContainer>
       <HeroText>
@@ -26,7 +32,13 @@ const Hero = () => {
           functional and responsive web applications.
         </HeroDescription>
         <HeroContact>
-          <Button radius="8">Contact-Me</Button>
+          <Button
+            onClick={handleContactClick}
+            href="https://www.linkedin.com/in/enzo-escudero-4740771ba/"
+            radius="8"
+          >
+            Contact-Me
+          </Button>
           <ButtonsContainer>
             <motion.div whileTap={{ scale: 0.95 }}>
               <a href="https://github.com/Enzoskr">

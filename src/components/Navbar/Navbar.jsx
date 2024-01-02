@@ -1,23 +1,31 @@
 import React from "react";
 import { NavbarContainer, NavbarLi, NavbarUl } from "./NavbarStyles";
 
-export const Navbar = () => {
+const Navbar = () => {
+  const handleContactClick = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <NavbarContainer>
       <NavbarUl>
         <NavbarLi>
           <a href="/">Home</a>
         </NavbarLi>
-        <NavbarLi>
+        {/* <NavbarLi>
           <a href="/studies">Studies</a>
-        </NavbarLi>
+        </NavbarLi> */}
         <NavbarLi>
-          <a href="/contact">Contact</a>
+          <a onClick={handleContactClick}>Contact</a>
         </NavbarLi>
-        <NavbarLi>
+        {/* <NavbarLi>
           <a href="/about">About</a>
-        </NavbarLi>
+        </NavbarLi> */}
       </NavbarUl>
     </NavbarContainer>
   );
 };
+
+export default Navbar;

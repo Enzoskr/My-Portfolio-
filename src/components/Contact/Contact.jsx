@@ -7,7 +7,7 @@ import {
   Contacts,
 } from "./ContactStyles";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <ContactContainer>
       <ContactTitle> Contact</ContactTitle>
@@ -17,9 +17,13 @@ export const Contact = () => {
         </Contacts>
         <Contacts href="https://github.com/Enzoskr">GitHub</Contacts>
         <Contacts>Correo</Contacts>
-        <Contacts>Curriculum</Contacts>
+        <Contacts href="https://docs.google.com/document/d/1FhRsF_BAZ-WajSN4bgu-ST37VPX9kpq4iYLDoYEhuoQ/edit?usp=sharing">
+          Curriculum
+        </Contacts>
       </ContactWrapper>
       <ContactBuild>2023 build with React.JSX</ContactBuild>
     </ContactContainer>
   );
 };
+
+export default Contact;

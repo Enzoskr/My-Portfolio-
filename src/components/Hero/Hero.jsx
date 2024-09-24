@@ -25,11 +25,13 @@ const Hero = () => {
     <HeroContainer>
       <HeroText>
         <HeroTitle>
-          Hi, I'm <span>Enzo</span>
+          Hola, soy <span>Enzo</span>!🚀
         </HeroTitle>
         <HeroDescription>
-          I'm a fullstack developer with a passion for building beautiful,
-          functional and responsive web applications.
+          {/* I'm a fullstack developer with a passion for building beautiful,
+          functional and responsive web applications. */}
+          Soy un desarrollador fullstack con gran entusiasmo por la creación de
+          paginas web, útiles estéticas y funcionales.
         </HeroDescription>
         <HeroContact>
           <Button
@@ -37,7 +39,7 @@ const Hero = () => {
             href="https://www.linkedin.com/in/enzo-escudero-4740771ba/"
             radius="8"
           >
-            Contact-Me
+            Contacto
           </Button>
           <ButtonsContainer>
             <motion.div whileTap={{ scale: 0.95 }}>

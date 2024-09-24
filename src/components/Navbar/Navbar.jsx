@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="/studies">Studies</a>
         </NavbarLi> */}
         <NavbarLi>
-          <a onClick={handleContactClick}>Contact</a>
+          <a onClick={handleContactClick}>Contacto</a>
         </NavbarLi>
         {/* <NavbarLi>
           <a href="/about">About</a>

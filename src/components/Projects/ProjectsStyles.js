@@ -25,6 +25,9 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProyectoCard = styled.div`
+  a {
+    list-style: none;
+  }
   width: 300px;
   height: 300px;
   cursor: pointer;

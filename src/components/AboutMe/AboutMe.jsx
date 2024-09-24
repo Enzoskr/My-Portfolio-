@@ -6,7 +6,7 @@ import { AboutMeData } from "../../data/AboutMe";
 const AboutMe = () => {
   return (
     <AboutMeWrapper>
-      <h2>About Me</h2>
+      <h2>Sobre mí</h2>
       <AboutMeContainer>
         {AboutMeData.map((AboutMeCard) => {
           return <AboutMeCards key={AboutMeCard.id} {...AboutMeCard} />;

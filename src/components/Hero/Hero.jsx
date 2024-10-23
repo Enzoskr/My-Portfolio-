@@ -8,7 +8,9 @@ import {
   HeroText,
   HeroTitle,
 } from "./HeroStyles";
-import HeroPhoto from "../../assets/HeroPhoto.jpg";
+// import HeroPhoto from "../../assets/HeroPhoto.jpg";
+import HeroPhoto from "../../assets/fotoportfolio.jpg";
+
 import Button from "../UI/Button/Button";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";

@@ -6,7 +6,6 @@ import Habilitie from "./Habilitie";
 export const Habilities = () => {
   return (
     <HabilitiesWrapper>
-      <h2>Habilidades</h2>
       <HabilitiesContainer>
         {Languages.map((language) => {
           return <Habilitie key={language.id} {...language} />;

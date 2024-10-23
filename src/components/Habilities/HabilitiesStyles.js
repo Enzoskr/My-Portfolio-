@@ -6,6 +6,8 @@ export const HabilitiesWrapper = styled.section`
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 50px;
+  padding-bottom: 20px;
+
   @media screen and (max-width: 768px) {
     padding-top: 30px;
     text-align: start;
@@ -50,4 +52,6 @@ export const LanguageCard = styled.div`
     height: 50%;
     object-fit: contain;
   }
+  height: 100px;
+  width: 120px;
 `;

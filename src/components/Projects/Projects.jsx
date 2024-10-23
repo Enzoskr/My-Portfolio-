@@ -6,7 +6,7 @@ import Proyecto from "./Proyecto";
 const Projects = () => {
   return (
     <ProjectsWrapper>
-      <h2>Projects</h2>
+      {/* <h2>Projects</h2> */}
       <ProjectsContainer>
         {Proyectos.map((Proyectos) => {
           return <Proyecto key={Proyectos.id} {...Proyectos} />;

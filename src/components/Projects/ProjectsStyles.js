@@ -8,8 +8,8 @@ export const ProjectsWrapper = styled.section`
   flex-direction: column;
   flex-wrap: wrap;
   padding-top: 90px;
+  padding-top: 20px;
   @media screen and (max-width: 768px) {
-    padding-top: 30px;
     text-align: start;
   }
 `;
@@ -18,9 +18,9 @@ export const ProjectsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 30px;
-  @media screen and (max-width: 768px) {
-    gap: 40px;
+
+  @media screen and (max-width: 1024px) {
+    gap: 10px 40px;
   }
 `;
 

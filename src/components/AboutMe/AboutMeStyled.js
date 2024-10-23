@@ -5,18 +5,17 @@ export const AboutMeWrapper = styled.section`
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 20px;
   max-width: 1300px;
   margin: 0 auto;
   width: 100%;
-  padding-top: 50px;
+
   @media screen and (max-width: 768px) {
-    padding-top: 30px;
     text-align: start;
   }
 `;
 
 export const AboutMeStyled = styled.div`
-  max-width: 1300px;
   margin: 0 auto;
 `;
 
@@ -37,6 +36,7 @@ export const AboutMeCard = styled.div`
   font-size: 1.5rem;
   padding: 12px;
   border-radius: 12px;
+  font-size: 1.2rem;
 
   img {
     width: 100px;
@@ -46,7 +46,8 @@ export const AboutMeCard = styled.div`
   }
   @media screen and (max-width: 768px) {
     width: 200px;
-    font-size: 1.2rem;
-    padding: 6;
+    height: 300px;
+    font-size: 1rem;
+    gap: 2px;
   }
 `;

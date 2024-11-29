@@ -39,4 +39,9 @@ export const Languages = [
     img: "https://cdn.iconscout.com/icon/free/png-256/free-typescript-1174965.png",
     title: "TypeScript",
   },
+  {
+    id: 9,
+    img: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+    title: "C",
+  },
 ];

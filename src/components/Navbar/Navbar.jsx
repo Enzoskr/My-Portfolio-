@@ -2,12 +2,14 @@ import React from "react";
 import { NavbarContainer, NavbarLi, NavbarUl } from "./NavbarStyles";
 
 const Navbar = () => {
-  const handleContactClick = () => {
+  const handleContactClick = (e) => {
+    e.preventDefault();
     window.scrollTo({
       top: document.body.scrollHeight,
       behavior: "smooth",
     });
   };
+
   return (
     <NavbarContainer>
       <NavbarUl>
@@ -18,7 +20,9 @@ const Navbar = () => {
           <a href="/studies">Studies</a>
         </NavbarLi> */}
         <NavbarLi>
-          <a onClick={handleContactClick}>Contacto</a>
+          <a href="#contacto" onClick={handleContactClick}>
+            Contacto
+          </a>
         </NavbarLi>
         {/* <NavbarLi>
           <a href="/about">About</a>

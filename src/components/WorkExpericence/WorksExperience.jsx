@@ -1,4 +1,4 @@
-import { WorkExperienceWrapper, SectionTitle } from "./WorkExperienceStyles";
+import { WorkExperienceWrapper } from "./WorkExperienceStyles";
 import { Trabajos } from "../../data/Jobs";
 import WorkExperience from "./WorkExperience";
 
